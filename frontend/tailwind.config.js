@@ -7,6 +7,9 @@ export default {
             colors: {
                 darkMode: "#0A101A",
             },
+            fontFamily: {
+                roboto: ["Roboto", "sans-serif"],
+            },
         },
     },
     plugins: [],
