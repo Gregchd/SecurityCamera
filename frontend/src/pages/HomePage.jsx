@@ -41,8 +41,13 @@ function HomePage() {
             <section id="servicios" className="items-center text-center h-screen flex justify-evenly">
                 <div>Servicios</div>
             </section>
-            <section id="clientes" className="items-center text-center h-screen ">
-                <Carousel />
+            <section id="clientes" className="items-center text-center h-screen flex flex-col justify-evenly">
+                <div className="">
+                    <div className="text-4xl">Clientes</div>
+                </div>
+                <div className="flex w-[70vw] mb-[25vh]">
+                    <Carousel />
+                </div>                
             </section>
             <section id="nosotros" className="items-center text-center h-screen flex justify-evenly">
                 <div>En C&C Security, nos dedicamos a brindar soluciones avanzadas de seguridad mediante la instalación de cámaras de alta calidad. Con años de experiencia, nuestro equipo de expertos ofrece un servicio personalizado y profesional para hogares y negocios. Utilizamos las últimas tecnologías para garantizar una vigilancia efectiva y confiable, adaptándonos a tus necesidades específicas. Confía en nosotros para proteger lo que más valoras</div>

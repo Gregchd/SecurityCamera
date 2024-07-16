@@ -1,4 +1,4 @@
-import logoCamera from '../img/logo_camera.png'
+import logoCamera from '../img/logo_SCV.svg'
 
 function Navbar(darkMode, toggleDarkMode) {
     return (
