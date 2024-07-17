@@ -45,7 +45,7 @@ function HomePage() {
                 <div className="">
                     <div className="text-4xl">Clientes</div>
                 </div>
-                <div className="flex w-[70vw] mb-[25vh]">
+                <div className="flex w-[42vw] mb-[25vh]">
                     <Carousel />
                 </div>                
             </section>
