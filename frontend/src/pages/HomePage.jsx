@@ -33,7 +33,7 @@ function HomePage() {
                         <a href="#contacto" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded text-xl">Contactanos</a>
                     </div>              
                 </div>
-                <div className=" xl:w-[80vw]">
+                <div className=" w-0 xl:w-[80vw]">
                     {/* <img src={logo} alt="camara" className="h-5/6"/> */}
                     <Spline scene="https://prod.spline.design/zeIMNB-tX11U7GyZ/scene.splinecode" className=""/>
                 </div>             
