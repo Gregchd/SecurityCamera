@@ -6,6 +6,9 @@ import 'swiper/css';
 
 import {Autoplay, EffectCreative} from 'swiper/modules';
 
+import moniplast from '../img/moniplast.jpg';
+import monichoco from '../img/monicachoco.webp';
+
 const Carousel = () => {
 
     return (
@@ -32,8 +35,8 @@ const Carousel = () => {
             }}
             modules={[Autoplay, EffectCreative]}
         >
-            <SwiperSlide><img src="https://via.placeholder.com/800x400?text=Image+1"></img></SwiperSlide>
-            <SwiperSlide><img src="https://via.placeholder.com/800x400?text=Image+2"></img></SwiperSlide>
+            <SwiperSlide className="flex justify-center"><img src={moniplast}></img></SwiperSlide>
+            <SwiperSlide className="flex justify-center"><img src={monichoco}></img></SwiperSlide>
             <SwiperSlide><img src="https://via.placeholder.com/800x400?text=Image+3"></img></SwiperSlide>
             <SwiperSlide><img src="https://via.placeholder.com/800x400?text=Image+4"></img></SwiperSlide>
         </Swiper>
